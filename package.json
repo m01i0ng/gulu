@@ -1,0 +1,24 @@
+{
+  "name": "gulu",
+  "version": "0.0.1",
+  "description": "A ui framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m01i0ng/gulu.git"
+  },
+  "keywords": [
+    "vue",
+    "framework",
+    "ui"
+  ],
+  "author": "m01i0ng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m01i0ng/gulu/issues"
+  },
+  "homepage": "https://github.com/m01i0ng/gulu#readme"
+}
