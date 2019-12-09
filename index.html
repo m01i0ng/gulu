@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>gulu</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8"/>
+  <title>gulu</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        :root {
-            --button-height: 32px;
-            --font-size: 14px;
-            --button-bg: white;
-            --button-active-bg: #eee;
-            --border-radius: 4px;
-            --color: #333;
-            --border-color: #999;
-            --border-color-hover: #666;
-        }
+    :root {
+      --button-height: 32px;
+      --font-size: 14px;
+      --button-bg: white;
+      --button-active-bg: #eee;
+      --border-radius: 4px;
+      --color: #333;
+      --border-color: #999;
+      --border-color-hover: #666;
+    }
 
-        #app {
-            margin: 20px;
-        }
+    #app {
+      margin: 20px;
+    }
 
-        body {
-            font-size: var(--font-size);
-        }
-    </style>
+    body {
+      font-size: var(--font-size);
+    }
+  </style>
+  <style>
+    .icon {
+      width: 1em;
+      height: 1em;
+    }
+  </style>
 </head>
 <body>
 <div id="app">
-    <g-button></g-button>
+  <g-button icon="settings">按钮</g-button>
+  <g-button icon="settings" icon-position="right">按钮</g-button>
 </div>
-<script src="src/app.js">
-</script>
+<script src="src/app.js"></script>
+<script src="//at.alicdn.com/t/font_1553922_6u3m539ids7.js"></script>
 </body>
 </html>
