@@ -14,7 +14,7 @@
 
 <script>
   export default {
-    name: 'button',
+    name: 'g-button',
     props: {
       icon: {},
       iconPosition: {

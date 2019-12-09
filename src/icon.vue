@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: 'icon',
+    name: 'g-icon',
     props: ['name']
   }
 </script>
