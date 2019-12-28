@@ -1,12 +1,8 @@
 import Vue from 'vue'
 import { describe, it } from 'mocha'
-import chai from 'chai'
-import spies from 'chai-spies'
+import sinon from 'sinon'
 
 import Button from '../src/button'
-
-const expect = chai.expect
-chai.use(spies)
 
 Vue.config.productionTip = false
 Vue.config.devtools = false
@@ -89,20 +85,14 @@ describe('Button', function() {
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({
       propsData: {
-        icon: 'settings',
-        iconPosition: 'right'
+        icon: 'settings'
       }
     })
     vm.$mount()
-    const spy = chai.spy(() => {
 
-    })
-    vm.$on('click', spy)
-    const button = vm.$el
-    button.click()
-
-    vm.$el.remove()
-    vm.$destroy()
-    expect(spy).to.have.been.called()
+    const cb = sinon.fake()
+    vm.$on('click', cb)
+    vm.$el.click()
+    expect(cb).to.have.been.called
   })
 })

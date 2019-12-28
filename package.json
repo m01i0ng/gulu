@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html --no-cache",
     "test": "parcel build test/* --no-cache --no-minify && karma start --single-run",
-    "dev-test": "parcel watch test/* --no-cache && karma start"
+    "test:watch": "parcel watch test/* --no-cache && karma start"
   },
   "repository": {
     "type": "git",
@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/m01i0ng/gulu#readme",
   "dependencies": {
-    "vue": "^2.6.10",
-    "vue-hot-reload-api": "^2.3.4"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",
     "@types/karma": "^3.0.4",
     "@types/mocha": "^5.2.7",
+    "@types/sinon": "^7.5.1",
     "@vue/component-compiler-utils": "^3.0.2",
     "chai": "^4.2.0",
     "chai-spies": "^1.0.0",
@@ -45,6 +45,7 @@
     "sass": "^1.23.7",
     "sinon": "^7.5.0",
     "sinon-chai": "^3.3.0",
+    "vue-hot-reload-api": "^2.3.4",
     "vue-template-compiler": "^2.6.10"
   },
   "alias": {
