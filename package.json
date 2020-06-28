@@ -30,7 +30,7 @@
     "@types/chai": "4.2.7",
     "@types/karma": "3.0.5",
     "@types/mocha": "5.2.7",
-    "@types/sinon": "7.5.1",
+    "@types/sinon": "9.0.4",
     "@vue/component-compiler-utils": "3.1.0",
     "chai": "4.2.0",
     "chai-spies": "1.0.0",
@@ -44,7 +44,7 @@
     "parcel": "1.12.4",
     "puppeteer": "2.0.0",
     "sass": "1.24.0",
-    "sinon": "7.5.0",
+    "sinon": "9.0.2",
     "sinon-chai": "3.4.0",
     "vue-hot-reload-api": "2.3.4",
     "vue-template-compiler": "2.6.11"
