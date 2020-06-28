@@ -42,7 +42,7 @@
     "karma-sinon-chai": "2.0.2",
     "mocha": "6.2.2",
     "parcel": "1.12.4",
-    "puppeteer": "2.0.0",
+    "puppeteer": "4.0.1",
     "sass": "1.24.0",
     "sinon": "7.5.0",
     "sinon-chai": "3.4.0",
