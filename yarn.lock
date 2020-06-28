@@ -794,10 +794,10 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.2.7.tgz#1c8c25cbf6e59ffa7d6b9652c78e547d9a41692d"
   integrity sha512-luq8meHGYwvky0O7u0eQZdA7B4Wd9owUCqvbw2m3XCrCU8mplYOujMBbvyS547AxJkC+pGnd0Cm15eNxEUNU8g==
 
-"@types/karma@3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@types/karma/-/karma-3.0.5.tgz#33d26b32e98e1a251ca9c7079375cfa50028858b"
-  integrity sha512-VSIO/1tJcfBN6jgXF+fIlHoOxxsijeJHoGMNXnrUF+pYMT8ovXGX7s002Dsppkv5Xkv5GjkptSKrOHv5+gwR8g==
+"@types/karma@3.0.9":
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/@types/karma/-/karma-3.0.9.tgz#72a3bd8c05caefe4ccd6c6cce932a88973b67e8a"
+  integrity sha512-GEhyutKIjZstOI1o9HHu58ApHLdgpyvihiUzLaPK3Ig5LIjRTagtSB5RbwKsmfKjmoh0qPNOCmZTYL37VTTcbA==
   dependencies:
     "@types/bluebird" "*"
     "@types/node" "*"
