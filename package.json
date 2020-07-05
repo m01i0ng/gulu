@@ -45,7 +45,7 @@
     "puppeteer": "5.0.0",
     "sass": "1.24.0",
     "sinon": "9.0.2",
-    "sinon-chai": "3.4.0",
+    "sinon-chai": "3.5.0",
     "vue-hot-reload-api": "2.3.4",
     "vue-template-compiler": "2.6.11"
   },
